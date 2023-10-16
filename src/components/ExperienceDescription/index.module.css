@@ -17,10 +17,15 @@
 
 .project {
     margin: var(--small) 0;
-    /* padding: var(--x-small); */
     display: flex;
     flex-direction: column;
-    /* background-color: var(--orange); */
+}
+
+.projects-heading {
+    font-size: var(--medium);
+    font-weight: 800;
+    margin-top: var(--medium);
+    display: block;
 }
 
 .project-title {

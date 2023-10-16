@@ -51,12 +51,12 @@ const ExperienceDescription = ({ experienceId }: Props): JSX.Element => {
             const projectsLength = experience.projects.length;
 
             return (
-              <div className={styles["project"]}>
+              <div key={`project-${idx}`} className={styles["project"]}>
                 <span className={styles["project-title"]}>{project.name}</span>
                 <div className={styles["list"]}>
                   <ul>
-                    {project.bullets.map((bullet) => {
-                      return <li>{bullet}</li>;
+                    {project.bullets.map((bullet: string, idx: number) => {
+                      return <li key={`li-${idx}`}>{bullet}</li>;
                     })}
                   </ul>
                 </div>

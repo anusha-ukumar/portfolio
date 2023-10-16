@@ -14,25 +14,33 @@ export const experienceDescription = [
       {
         name: "User interface to manage orders",
         bullets: [
-          "Led a 4-member development team in building an internal web application to streamline order lifecycle management, supporting the car purchase process.",
-          "Collaborated with the product team to gather requirements, designed the application architecture, and implemented robust solutions.",
+          "Built an internal web application to streamline order lifecycle management to support the online car purchase process.",
+          "Collaborated with the product team to gather requirements, designed the application architecture, and implemented resilient solutions.",
+          "Attained 80% test coverage by crafting unit tests using Jest and Enzyme, ensuring high code quality and minimizing bugs.",
+          "Employed Agile/Scrum methodologies and CI/CD best practices for streamlined task execution."
         ],
         skills: [
           "React",
           "JavaScript",
+          "ES6",
+          "HTML",
+          "CSS",
+          "SASS",
           "Node.js",
           "Next.js",
           "Redux",
           "MobX",
+          "React hooks",
+          "Webpack",
           "Jest",
           "Enzyme",
           "TypeScript",
         ],
       },
       {
-        name: "Design APIs to manage orders",
+        name: "Design APIs to hel with the management of orders",
         bullets: [
-          "Developed RESTful APIs in a microservice-based architecture for data management and integration with internal and external systems.",
+          "Created RESTful APIs within a microservice-oriented framework to manage data and facilitate seamless integration between internal and external systems.",
         ],
         skills: [
           "Java",
@@ -41,6 +49,21 @@ export const experienceDescription = [
           "NoSQL",
           "Docker",
           "Kubernetes",
+        ],
+      },
+      {
+        name: "Price calculation for car orders",
+        bullets: [
+          "Worked on RESTful APIs and GraphQL APIs to calculate product prices in an order.",
+          "Set up a PostgreSQL database using the code-first approach with Entity Framework Core."
+        ],
+        skills: [
+          "C#",
+          "Graph QL",
+          "Apollo",
+          ".NET",
+          "PostgreSQL",
+          "RDBMS"
         ],
       },
     ],

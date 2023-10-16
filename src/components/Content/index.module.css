@@ -4,4 +4,7 @@
     width: calc(15*var(--x-large));
     box-shadow: -5px 5px 2px var(--dark-gray);
     padding: var(--small);
+    max-height: 95%;
+    margin-bottom: var(--x-large);
+    overflow-y: scroll;
 }

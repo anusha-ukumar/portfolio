@@ -46,6 +46,7 @@ const ExperienceDescription = ({ experienceId }: Props): JSX.Element => {
 
       {get(experience, "projects", null) && (
         <div className={styles["location"]}>
+          <span className={styles["projects-heading"]}>Projects list:</span>
           {experience?.projects.map((project: Project, idx: number) => {
             const skills = project.skills.join(", ");
             const projectsLength = experience.projects.length;

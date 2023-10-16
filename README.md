@@ -1,7 +1,9 @@
 This is a portfolio for Anusha Kumar. Please email me at anusha.ukumar@gmail.com. 
+Website is deployed at https://anusha-ukumar.github.io/portfolio/about 
 
 Here are tasks in my backlog:
 - Implement responsivness
+- Implement error handling
 - Allow copying of email
 - Add tests
 - Update content

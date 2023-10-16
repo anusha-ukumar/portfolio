@@ -38,7 +38,7 @@ export const experienceDescription = [
         ],
       },
       {
-        name: "Design APIs to hel with the management of orders",
+        name: "Design APIs to help with the management of orders",
         bullets: [
           "Created RESTful APIs within a microservice-oriented framework to manage data and facilitate seamless integration between internal and external systems.",
         ],

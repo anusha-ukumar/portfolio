@@ -1,0 +1,33 @@
+.tabs-container {
+    display: flex;
+    width: 100vw;
+    justify-content: flex-end;
+    padding-right: var(--x-large);
+}
+
+.tab-container {
+    font-size: var(--medium);
+    margin: var(--x-small);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.tab-container:hover {
+    color:  var(--text-color-dark);
+
+    .selected-icon {
+        visibility: visible;
+        opacity: 0.4 !important;
+    }
+}
+
+.selected-icon {
+    background-image: url('../../assets/butterfly-icon.png');
+    height: 20px;
+    width: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 2px;
+    margin-right: var(--xx-small);
+}

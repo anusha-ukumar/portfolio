@@ -38,6 +38,25 @@
   --callout-border-rgb: 172, 175, 176;
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135;
+
+
+  /* colors */
+  --orange: #ffb4a2;
+  --lilac: #9c89b8;
+  --light-gray: #cccccc;
+  --dark-gray: #6c757d;
+  --text-color-1: #5e3023;
+  --text-color-2: #c08552;
+  --text-color-dark: #b0699f;
+  --text-link: #390099;
+
+    /* spacing values */
+    --xx-small : 0.5rem;
+    --x-small : 0.8rem;
+    --small : 1rem;
+    --medium: 1.2rem;
+    --large: 2rem;
+    --x-large: 3rem;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -86,13 +105,15 @@ body {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  /* color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
+    background-color: var(--orange);
+    color: var(--text-color-1);
 }
 
 a {

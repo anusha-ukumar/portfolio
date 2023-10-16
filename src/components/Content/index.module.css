@@ -1,0 +1,7 @@
+.content-container {
+    background-color: var(--lilac);
+    height: fit-content;
+    width: calc(15*var(--x-large));
+    box-shadow: -5px 5px 2px var(--dark-gray);
+    padding: var(--small);
+}

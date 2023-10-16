@@ -1,0 +1,10 @@
+.page-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.icons-container {
+    display: flex;
+    height: 90vh
+    
+}

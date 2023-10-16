@@ -1,0 +1,29 @@
+.icons-container {
+    display: flex;
+    flex-direction: column;
+    width: var(--large);
+    justify-content: flex-end;
+}
+
+.icon-image-container {
+    height: 32px;
+    width: 32px;
+    margin: var(--small);
+    /* background-image: url('../../assets/coffee.png'); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+
+}
+
+.icon-image-container--github{
+    background-image: url('../../assets/github-icon.png');
+}
+
+.icon-image-container--linkedin{
+    background-image: url('../../assets/linkedin-icon.png');
+}
+
+.icon-image-container--email{
+    background-image: url('../../assets/email-icon.png');
+}

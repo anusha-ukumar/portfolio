@@ -1,0 +1,51 @@
+.about-conainter {
+    margin-top: 10%;
+    margin-left: 20%;
+
+}
+
+.experience-conainter {
+    /* margin-top: 10%;*/
+    margin-top: calc(2*var(--x-large));
+    margin-left: calc(4*var(--x-large));
+    display: flex;
+
+}
+
+.experience-extra-links-icon {
+    background-image: url('../assets/heart.png');
+    height: 20px;
+    width: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 2px;
+    margin-right: var(--xx-small);
+ }
+
+.experience-extra-links {
+   margin-top: var(--x-large);
+   font-size: var(--medium);
+   display: flex;
+   justify-content: center;
+   cursor: pointer;
+}
+
+.experience-extra-links:hover {
+    color: var(--text-color-dark);
+    .experience-extra-links-icon {
+        opacity: 0.4 !important;
+    }
+ }
+
+.text-container {
+    font-size: var(--medium);
+    margin-top: var(--x-large);
+    width: calc(10*var(--x-large));
+}
+
+.link {
+    cursor: pointer;
+    color: var(--text-link);
+    margin-top: var(--small);
+    display: block;
+}

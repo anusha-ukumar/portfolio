@@ -1,0 +1,15 @@
+.timeline-item {
+    cursor: pointer;
+    display: flex;
+    font-family: ui-monospace;
+    font-size: calc(1.2*var(--medium));
+}
+
+.timeline-item:hover {
+    color: var(--text-color-dark);
+}
+
+.timeline-opposite-item {
+    color: var(--dark-gray);
+    font-size: var(--x-small);
+}

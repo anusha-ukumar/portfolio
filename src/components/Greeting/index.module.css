@@ -1,0 +1,18 @@
+.greeting-container {
+    display: flex;
+}
+
+.greeting-text {
+    font-size: calc(1.2*var(--x-large));
+    display: flex;
+    flex-direction: column;
+
+}
+
+.greeting-image {
+    background-image: url('../../assets/coffee.png');
+    height: 120px;
+    width: 120px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

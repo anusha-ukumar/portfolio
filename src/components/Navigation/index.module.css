@@ -31,3 +31,9 @@
     margin-top: 2px;
     margin-right: var(--xx-small);
 }
+
+@media all and (max-width: 480px) {
+    .tabs-container {
+        padding-right: var(--small);
+    }
+}

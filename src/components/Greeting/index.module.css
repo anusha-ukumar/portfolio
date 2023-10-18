@@ -16,3 +16,9 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+@media all and (max-width: 480px) {
+    .greeting-text {
+        width: 40%;
+    }
+}

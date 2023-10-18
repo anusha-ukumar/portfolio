@@ -5,7 +5,6 @@
 }
 
 .experience-conainter {
-    /* margin-top: 10%;*/
     margin-top: calc(2*var(--x-large));
     margin-left: calc(4*var(--x-large));
     display: flex;
@@ -48,4 +47,31 @@
     color: var(--text-link);
     margin-top: var(--small);
     display: block;
+}
+
+@media all and (max-width: 1024px) {
+    .about-conainter {
+        margin-top: 8%;
+        margin-left: 10%;
+    
+    }
+}
+
+@media all and (max-width: 480px) {
+    .about-conainter {
+        margin-top: 8%;
+        margin-left: 0;
+    }
+
+    .experience-conainter {
+        margin-top: var(--x-small);
+        margin-left: var(--x-small);
+        flex-direction: column;
+        row-gap: var(--medium);
+        overflow-y: scroll;
+    }
+
+    .text-container{
+        width: 80%;
+    }
 }

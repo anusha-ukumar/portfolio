@@ -8,3 +8,10 @@
     height: 90vh
     
 }
+
+
+@media all and (max-width: 480px) {
+    .icons-container {
+        height: fit-content;
+    }
+}

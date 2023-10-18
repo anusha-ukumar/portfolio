@@ -6,5 +6,14 @@
     padding: var(--small);
     max-height: 95%;
     margin-bottom: var(--x-large);
-    overflow-y: scroll;
+    overflow-y: overlay;
+}
+
+@media all and (max-width: 480px) {
+    .content-container {
+        margin-left: var(--small);
+        width: 90%;
+        height: calc(10*var(--x-large));
+        display: block;
+    }
 }
